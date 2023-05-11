@@ -151,7 +151,7 @@ def game():
 def new_game():
     new_game = input("Would you like to start a new game? y/n: ")
     if new_game == "y":
-
+        # need to clear console and objects here
         game()
     else:
         return "Bye"
